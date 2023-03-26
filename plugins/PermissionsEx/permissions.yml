@@ -1,0 +1,21 @@
+groups:
+  Member:
+    options:
+      default: true
+      prefix: '&4&l[&a&lMember&4&l]&f '
+    permissions:
+    - modifyworld.*
+    - chestcommands.open.menu.yml
+    - spawntp.spawn
+  admin:
+    options:
+      prefix: '&a[&4&lQuản Lý&a] '
+    permissions:
+    - '*'
+schema-version: 1
+users:
+  bf510b3f-84ee-31ba-b9f5-e5a46c76ba58:
+    group:
+    - Member
+    options:
+      name: SLG_Venus

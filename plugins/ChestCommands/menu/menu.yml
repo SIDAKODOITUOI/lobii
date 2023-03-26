@@ -1,0 +1,216 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+  name: '&1&lMENU'
+  rows: 5
+  command: 'menu'
+  auto-refresh: 5
+  open-action: 'spawn;heal'
+
+Heal:
+  COMMAND: 'op: heal {player}'
+  NAME: '&6&lHồi Máu'
+  ID: 322
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 5
+  POSITION-Y: 4
+  
+Towny:
+  COMMAND: 'server: towny'
+  NAME: '&6&lTowny'
+  LORE:
+  - 'Sinh Tồn Trên Một Mảnh Đất Hoang'
+  - 'Bạn Có Thể Cùng Bạn Bè Xây Dựng'
+  - 'Thành Phố Của Riêng Mình'
+  - ''
+  - '&aNhấp Để Kết Nối !'
+  ID: 268
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 6
+  POSITION-Y: 3
+  
+Op-Skyblock:
+  COMMAND: 'server: op-skyblock'
+  NAME: '&6&lOp Skyblock'
+  LORE:
+  - 'Sinh Tồn Tại Hòn Đảo Trên'
+  - 'Không Hãy Cùng Bạn Bè Xây'
+  - 'Dựng Nên Thành Phố Của Bạn'  
+  - ''
+  - '&aNhấp Để Kết Nối !'
+  ID: 2
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 4
+  POSITION-Y: 3
+  
+1:
+  NAME: ''
+  ID: stained_glass_pane:5
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 1
+  POSITION-Y: 1
+  
+2:
+  NAME: ''
+  ID: stained_glass_pane:14
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 1
+  POSITION-Y: 2
+  
+3:
+  NAME: ''
+  ID: stained_glass_pane:10
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 1
+  POSITION-Y: 3
+  
+4:
+  NAME: ''
+  ID: stained_glass_pane:14
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 1
+  POSITION-Y: 4
+  
+5:
+  NAME: ''
+  ID: stained_glass_pane:5
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 1
+  POSITION-Y: 5
+  
+6:
+  NAME: ''
+  ID: stained_glass_pane:5
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 2
+  POSITION-Y: 5
+  
+7:
+  NAME: ''
+  ID: stained_glass_pane:5
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 3
+  POSITION-Y: 5
+  
+8:
+  NAME: ''
+  ID: stained_glass_pane:5
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 4
+  POSITION-Y: 5
+  
+9:
+  NAME: ''
+  ID: stained_glass_pane:5
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 5
+  POSITION-Y: 5
+  
+10:
+  NAME: ''
+  ID: stained_glass_pane:5
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 6
+  POSITION-Y: 5
+  
+11:
+  NAME: ''
+  ID: stained_glass_pane:5
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 7
+  POSITION-Y: 5
+  
+12:
+  NAME: ''
+  ID: stained_glass_pane:5
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 8
+  POSITION-Y: 5
+  
+13:
+  NAME: ''
+  ID: stained_glass_pane:5
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 9
+  POSITION-Y: 5
+  
+14:
+  NAME: ''
+  ID: stained_glass_pane:14
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 9
+  POSITION-Y: 4
+  
+15:
+  NAME: ''
+  ID: stained_glass_pane:10
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 9
+  POSITION-Y: 3
+  
+16:
+  NAME: ''
+  ID: stained_glass_pane:14
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 9
+  POSITION-Y: 2
+  
+17:
+  NAME: ''
+  ID: stained_glass_pane:5
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 9
+  POSITION-Y: 1
+  
+18:
+  NAME: ''
+  ID: stained_glass_pane:5
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 7
+  POSITION-Y: 1
+  
+19:
+  NAME: ''
+  ID: stained_glass_pane:5
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 6
+  POSITION-Y: 1
+  
+20:
+  NAME: ''
+  ID: stained_glass_pane:5
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 5
+  POSITION-Y: 1
+  
+21:
+  NAME: ''
+  ID: stained_glass_pane:5
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 4
+  POSITION-Y: 1
+  
+22:
+  NAME: ''
+  ID: stained_glass_pane:5
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 3
+  POSITION-Y: 1
+  
+23:
+  NAME: ''
+  ID: stained_glass_pane:5
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 2
+  POSITION-Y: 1
+  
+24:
+  NAME: ''
+  ID: stained_glass_pane:5
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 8
+  POSITION-Y: 1
